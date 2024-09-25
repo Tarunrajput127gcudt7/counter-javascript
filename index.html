@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white w-[100vw] h-[100vh] flex justify-center items-center">
+
+    <div class="app w-[400px] h-[500px]  border-white border-[2px] rounded">
+
+       <h2 class="text-[3.75rem] text-center">count: <span>1</span></h2>
+
+       <div class="button-container flex flex-col px-10 gap-6">
+
+        <button id="incr" class="w-[100%] bg-blue-500 py-4 text-[1.4rem] font-semibold rounded-x1">Increment</button>
+
+        <button id="decr" class="w-[100%] bg-red-500 py-4 text-[1.4rem] font-semibold rounded-x2">Decrement</button>
+
+        <button id="res" class="w-[100%] bg-pink-500 py-4 text-[1.4rem] font-semibold rounded-x1">Reset</button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
